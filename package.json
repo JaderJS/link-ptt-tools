@@ -1,0 +1,24 @@
+{
+  "name": "link-ptt-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn src/server.ts"
+  },
+  "author": "Jader José da Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "@types/ping": "^0.4.2",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "ping": "^0.4.4",
+    "sqlite3": "^5.1.6"
+  }
+}
